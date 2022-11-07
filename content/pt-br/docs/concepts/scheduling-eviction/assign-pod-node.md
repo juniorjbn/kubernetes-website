@@ -45,4 +45,4 @@ Para usar esse prefixo de label para isomalento de node:
 
 1. Garanta que está usando o [Node authorizer](/docs/reference/access-authn-authz/node/) e tem ativado o  admission plugin `NodeRestriction`.
 2. Adicione labels com o prefixo `node-restriction.kubernetes.io/` aos seus nodes, e use esses labels em seu [node selectors](#nodeselector).
-   Por exemplo, `example.com.node-restriction.kubernetes.io/fips=true` or `example.com.node-restriction.kubernetes.io/pci-dss=true`.
+   Por exemplo, `example.com.node-restriction.kubernetes.io/fips=true` or `exemplo.com.node-restrito.kubernetes.io/pci-dss=true`.
